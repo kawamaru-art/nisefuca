@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wificrack-gui(root)
+Encoding=UTF-8
+Comment=hacking wifi root
+Exec=/usr/share/kali-menu/exec-in-shell "sudo wificrack-gui && exit"
+Icon=/opt/wificrack-gui/icon.png
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=06-wireless-attacks;
+X-Kali-Package=aircrack-ng

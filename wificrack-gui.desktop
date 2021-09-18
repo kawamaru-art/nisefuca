@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=wificrack-gui
+Encoding=UTF-8
+Comment=hacking wifi no root
+Exec=/usr/share/kali-menu/exec-in-shell "wificrack-gui"
+Icon=/opt/wificrack-gui/icon.png
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=06-wireless-attacks;
+X-Kali-Package=aircrack-ng
+

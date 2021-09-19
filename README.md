@@ -8,3 +8,16 @@ Wificrack is use <a href="https://www.aircrack-ng.org">aircrack-ng</a>
 [![Build](https://img.shields.io/badge/Supported_OS-linux-blue.svg)]()
 [![Build](https://img.shields.io/badge/wificrack-2.0-orange.svg)]()
 [![Build](https://img.shields.io/badge/version-2.0-cyan.svg)]()
+
+
+
+### clone
+* `git clone https://github.com/alanlol12/-nisefuck`
+*  `cd -nisefuck`
+### install
+* `chmod +x *` 
+* `./install.sh`
+### on terminal
+* `nisefuck`
+### application on wireless attack
+* `nisefuck`

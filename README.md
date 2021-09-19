@@ -21,3 +21,5 @@ Wificrack is use <a href="https://www.aircrack-ng.org">aircrack-ng</a>
 * `nisefuck`
 ### application on wireless attack
 * `nisefuck`
+### if error becouse permision denied try
+* `sudo nisefuck`

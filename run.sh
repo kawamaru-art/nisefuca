@@ -1,4 +1,4 @@
 
 
 
-python3 /opt/wificrack-gui/wificrack-gui.py
+python3 /opt/wificrack-gui/nisefuck.py

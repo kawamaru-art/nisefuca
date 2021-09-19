@@ -74,36 +74,36 @@ def aircrack():
     kembali.pack()
 
 def aircrack_ng():
-    os.system("konsole -geometry 600x500 --hold -e python3 /opt/wificrack-gui/lib/aircrack-ng.py")
+    os.system("konsole -geometry 600x500 --hold -e python3 /opt/nisefuck/lib/aircrack-ng.py")
 
 def client_attack():
-    os.system("konsole -geometry 600x500 --hold -e python3 /opt/wificrack-gui/lib/attack-client.py")
+    os.system("konsole -geometry 600x500 --hold -e python3 /opt/nisefuck/lib/attack-client.py")
 
 def wifi_attack():
-    os.system("konsole -geometry 600x500 --hold -e python3 /opt/wificrack-gui/lib/attack-wifi.py")
+    os.system("konsole -geometry 600x500 --hold -e python3 /opt/nisefuck/lib/attack-wifi.py")
 
 def s_t():
-    os.system("xterm -bg black -fg white -hold -geometry 101x27 -e python3 /opt/wificrack-gui/lib/start.py")
+    os.system("xterm -bg black -fg white -hold -geometry 101x27 -e python3 /opt/nisefuck/lib/start.py")
  
 
 def airmon_ng():
-    os.system("xterm -bg black -fg white -hold -geometry 101x27 -e python3 /opt/wificrack-gui/lib/cek.py")
+    os.system("xterm -bg black -fg white -hold -geometry 101x27 -e python3 /opt/nisefuck/lib/cek.py")
     
 
 def scanwifi():
-    os.system("konsole --hold -geometry 900x500 -e python3 /opt/wificrack-gui/lib/scanwifi.py")
+    os.system("konsole --hold -geometry 900x500 -e python3 /opt/nisefuck/lib/scanwifi.py")
 
 def captures():
-    os.system("konsole --hold -geometry 900x500 -e python3 /opt/wificrack-gui/lib/captures.py")
+    os.system("konsole --hold -geometry 900x500 -e python3 /opt/nisefuck/lib/captures.py")
 
 def fakew():
-    os.system("konsole --hold -geometry 900x500 -e python3 /opt/wificrack-gui/lib/fakewifi.py")
+    os.system("konsole --hold -geometry 900x500 -e python3 /opt/nisefuck/lib/fakewifi.py")
 
 def change_name_wifi():
-    os.system("konsole --hold -geometry 900x500 -e python3 /opt/wificrack-gui/lib/change-wifi.py")
+    os.system("konsole --hold -geometry 900x500 -e python3 /opt/nisefuck/lib/change-wifi.py")
 def tentang():
     ten = Tk()
-    ten.title("tentang")
+    ten.title("about")
     githubb = tkinter.Label(ten, text="\ngithub:https://github.com/alanlol12\n")
     pem = tkinter.Label(ten, text="\nby: who")
     des = tkinter.Label(ten, text="\nwificrack use aircrack-ng\n")
@@ -111,7 +111,7 @@ def tentang():
     pem.pack()
     des.pack()
 def phising():
-    os.system("konsole --hold -geometry 900x500 -e python3 /opt/wificrack-gui/lib/phising.py")
+    os.system("konsole --hold -geometry 900x500 -e python3 /opt/nisefuck/lib/phising.py")
 
 def wifi():
     awal = Tk()

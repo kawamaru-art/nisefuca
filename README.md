@@ -28,8 +28,8 @@ Wificrack is use <a href="https://www.aircrack-ng.org">aircrack-ng</a>
 
 
 ### clone
-* `git clone https://github.com/alanlol12/-nisefuck`
-*  `cd -nisefuck`
+* `git clone https://github.com/alanlol12/nisefuca`
+*  `cd nisefuca`
 ### install
 * `chmod +x *` 
 * `./install.sh`

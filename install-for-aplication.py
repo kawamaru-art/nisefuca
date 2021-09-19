@@ -22,7 +22,7 @@ def main():
    if p == "install":
       install1 = os.system("""apt install python3 && apt install aircrack-ng && apt install python3-tornado && apt install python3-tk && apt install konsole && apt install xterm""")
 
-      install2 = os.system("""mkdir -p /opt/wificrack-gui && cp Wificrack-guiroot.desktop /usr/share/applications && cp wificrack-gui.desktop /usr/share/applications && cp icon.png /opt/wificrack-gui && cp wificrack-gui.py /opt/wificrack-gui && cp -R background/ /opt/wificrack-gui && cp -R lib/ /opt/wificrack-gui && cp run.sh /usr/bin/wificrack-gui && chmod +x /usr/bin/wificrack-gui && echo "\nwificrackgui complete install execute: 'wificrack-gui'\n" """)
+      install2 = os.system("""mkdir -p /opt/nisefuck && cp nisefuckroot.desktop /usr/share/applications && cp nisefuck.desktop /usr/share/applications && cp icon.png /opt/nisefuck && cp nisefuck.py /opt/nisefuck && cp -R background/ /opt/nisefuck && cp -R lib/ /opt/nisefuck && cp run.sh /usr/bin/nisefuck && chmod +x /usr/bin/nisefuck && echo "\nwificrackgui complete install execute: 'wificrack-gui'\n" """)
    elif p == "out":
       exit()
    else:

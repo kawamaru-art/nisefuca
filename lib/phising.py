@@ -5,6 +5,7 @@ from time import sleep
 p = input("did you install ngrok y/n: ")
 if p == "y":
     y = input("where ngrok file to start: ")
+    print ("you can put your custom web on /opt/nisefuck/lib/web")
     yuw = input("website phising default/custom: ")
     if yuw == "default":
         print("start website....")

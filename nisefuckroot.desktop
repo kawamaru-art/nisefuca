@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=wificrack-gui(root)
+Name=nisefuck(root)
 Encoding=UTF-8
 Comment=hacking wifi root
 Exec=/usr/share/kali-menu/exec-in-shell "sudo wificrack-gui && exit"

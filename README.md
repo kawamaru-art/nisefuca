@@ -1,5 +1,11 @@
 # -nisefuck
 
+## Linux debian desktop ✅
+## nethunter✅
+## termux❎
+## andrax ❎
+## windows ❎
+
 Wificrack is use <a href="https://www.aircrack-ng.org">aircrack-ng</a>
 ![20210625_110302](https://user-images.githubusercontent.com/81538835/123363554-508f1e00-d562-11eb-9afb-dabded8f2a60.png)
 ![GitHub top language](https://img.shields.io/github/languages/top/alanlol12/wificrack-2.0?logo=python)

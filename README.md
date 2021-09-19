@@ -7,7 +7,6 @@
 * windows ❎
 
 # on script
-*
 * Aircrack-ng✅
 * Airodump-ng✅
 * Aireplay-ng✅

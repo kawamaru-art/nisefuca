@@ -1,0 +1,1 @@
+bash /opt/nisefuca/update/update.sh

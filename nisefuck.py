@@ -110,6 +110,13 @@ def tentang():
     githubb.pack()
     pem.pack()
     des.pack()
+    
+def commd():
+    boi = Tk()
+    boi.title("command")
+    hj = tkinter.Label(ten, text="\nupdate:nisupdate/n")
+    hj.pack()
+
 def phising():
     os.system("konsole --hold -geometry 900x500 -e python3 /opt/nisefuck/lib/phising.py")
 
@@ -157,6 +164,7 @@ aw.geometry("500x500")
 filemenu = Menu(menu)
 menu.add_cascade(label="info", menu=filemenu)
 filemenu.add_command(label="about", command=tentang)
+filemenu.add_command(label="commands", command=commd)
 Label = tkinter.Label(aw, text="thanks for use this script")
 moni = tkinter.Button(aw, text="wifi", command=wifi)
 tombol = tkinter.Button(aw, text="phising", command=phising)

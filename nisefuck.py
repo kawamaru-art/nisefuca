@@ -114,7 +114,7 @@ def tentang():
 def commd():
     boi = Tk()
     boi.title("command")
-    hj = tkinter.Label(ten, text="\nupdate:nisupdate/n")
+    hj = tkinter.Label(boi, text="\nupdate:nisupdate/n")
     hj.pack()
 
 def phising():

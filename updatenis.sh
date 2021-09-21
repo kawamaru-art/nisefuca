@@ -1,1 +1,1 @@
-bash /opt/nisefuca/update/update.sh
+bash /opt/nisefuck/update/update.sh

@@ -155,7 +155,7 @@ menu = Menu(aw)
 
 aw.config(menu=menu)
 
-bg = PhotoImage(file="//opt/wificrack-gui/background/bg.png")
+bg = PhotoImage(file="//opt/nisefuck/background/bg.png")
 label = Label(aw, image=bg)
 label.place(x=0, y=0, relwidth=1, relheight=1)
 

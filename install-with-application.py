@@ -22,7 +22,7 @@ def main():
    if p == "install":
       install1 = os.system("""apt install python3 && apt install aircrack-ng && apt install python3-tornado && apt install python3-tk && apt install konsole && apt install xterm""")
 
-      install2 = os.system("""mkdir -p /opt/nisefuck && cp nisefuckroot.desktop /usr/share/applications && cp nisefuck.desktop /usr/share/applications && cp icon.png /opt/nisefuck && cp nisefuck.py /opt/nisefuck && cp -R background/ /opt/nisefuck && cp -R lib/ /opt/nisefuck && cp run.sh /usr/bin/nisefuck && chmod +x /usr/bin/nisefuck && echo "\nisefuck complete install execute: 'nisefuck'\n" """)
+      install2 = os.system("""mkdir -p /opt/nisefuck && cp nisefuckroot.desktop /usr/share/applications && cp nisefuck.desktop /usr/share/applications && cp icon.png /opt/nisefuck && cp nisefuck.py /opt/nisefuck && cp -R background/ /opt/nisefuck && cp -R lib/ /opt/nisefuck && cp run.sh /usr/bin/nisefuck && chmod +x /usr/bin/nisefuck && mkdir -p /opt/nisefuck/update && cp -r update.sh /opt/nisefuck/update && cp updatenis.sh /usr/bin/nisupdate && chmod +x /usr/bin/nisupdate && echo "\nisefuck complete install execute: 'sudo nisefuck' if you want script update type 'nisupdate'\n" """)
    elif p == "out":
       exit()
    else:

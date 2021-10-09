@@ -14,7 +14,7 @@ if (isset($_POST["button"])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>phising</title>
+    <title>login</title>
 </head>
 <body>
     <form method="POST" action="login.php">
